@@ -1,6 +1,5 @@
 html{
     font-size: x-large;
-
     font-family: "Open Sans", sans-serif;
 }
 
@@ -9,13 +8,13 @@ body {
 }
 
 nav {
-    background-color: black;
+    background-color: blue;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding:0.25em;
 }
 
 a {
-    color: #f0f0f0;
+    color: cyan;
     text-decoration: none;
 }
