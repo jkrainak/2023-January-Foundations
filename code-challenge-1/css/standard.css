@@ -1,20 +1,10 @@
-html{
-    font-size: x-large;
-    font-family: "Open Sans", sans-serif;
-}
-
-body {
-    margin: 0;
-}
 
 nav {
     background-color: blue;
     display: flex;
     justify-content: space-between;
-    padding:0.25em;
 }
 
 a {
     color: cyan;
-    text-decoration: none;
 }
