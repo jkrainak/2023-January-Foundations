@@ -1,0 +1,24 @@
+nav {													***REPLACE EVERYTHING IN THIS FILE WITH***
+    #home {												***THE CSS FROM YOUR HTML PAGE, MAKE THE***
+    background-image: url("../images/background.jpg");	***CHANGES TO THE CSS THAT ARE STATED ON***
+    background-repeat: no-repeat;						***THE HTML PAGE, AND DELETE THE CSS FROM***
+    background-size: cover;								***THE HTML PAGE, IN THAT ORDER***
+    background-position: center;
+    background-attachment: fixed;						***ALSO, YOU FORGOT TO ADD .photobox figure***
+    width: 100%;										***AND .photobox > :last-child TO YOUR CSS***
+    height: 100vh;										***REVIEW CLASS 4 FOR THOSE CHANGES***
+}
+        background-image: url("images/background.jpg");
+        background-color: black;
+        color: white;
+}
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+.photobox {
+    display: flex;
+}
+.photobox img {
+    width: 22ch;
+}
