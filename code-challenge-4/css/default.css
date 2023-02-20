@@ -1,7 +1,11 @@
-
 html {
     font-size: 3vh;
     font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+
 }
 
 #mysection {
@@ -12,14 +16,15 @@ html {
     background-size: cover;
     background-position: center bottom;
     /* background-position-y: bottom; */
+    text-align: center;
 }
 
-.title
-{
+.title {
     font-family: "Gloria Hallelujah", sans-serif;
     font-size: 3rem;
     text-align: center;
 }
+
 .subtitle {
     /* font-family: "Gloria Hallelujah", sans-serif; */
     font-size: 1.5rem;
@@ -28,9 +33,12 @@ html {
 
 nav {
     background-color: #808080;
-
-    text-align:center;
-
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    position:fixed;
+    bottom:0;
     width: 100%;
     z-index: 5;
 }
@@ -38,4 +46,6 @@ nav {
 a {
     color: #f0f0f0;
     text-decoration: none;
+    padding: 8px 15px;
+    
 }
