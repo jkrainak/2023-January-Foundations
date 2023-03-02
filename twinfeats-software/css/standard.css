@@ -1,6 +1,6 @@
 html {
     font-size: 16pt;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", "sans-serif";
 }
 
 body {
@@ -34,9 +34,8 @@ a {
     width: 9ch;
 }
 
-.title,
-.logo {
-    font-family: "Indie Flower", sans-serif;
+.title, .logo {
+    font-family: "Indie Flower", "sans-serif";
     font-size: 3em;
 }
 
@@ -89,7 +88,7 @@ article::before {
     z-index: -1;
 }
 
-.photobox> :last-child {
+.photobox > :last-child {
     text-align: left;
 }
 
@@ -118,11 +117,11 @@ figcaption {
     background-image: url("../images/www.jpg")
 }
 
-#services>p {
+#services > p {
     text-align: left;
 }
 
-#services>h2 {
+#services > h2 {
     font-size: 1.25em;
 }
 
@@ -140,19 +139,19 @@ figcaption {
     grid-area: main;
 }
 
-#apps>div:nth-of-type(1) {
+#apps > div:nth-of-type(1) {
     grid-area: sidebar-left;
     padding-right: 1.5em;
     text-align: right;
 }
 
-#apps>div:nth-of-type(3) {
+#apps > div:nth-of-type(3) {
     grid-area: sidebar-right;
     padding-left: 1.5em;
     text-align: left;
 }
 
-#apps>.sidebar>img {
+#apps > .sidebar>img {
     height: 20vh;
     margin-bottom: 0.5em;
 }
@@ -184,7 +183,7 @@ figcaption {
 
 }
 
-#contact>div {
+#contact > div {
     display: flex;
     flex-direction: column;
     width: calc(2em + 12ch);
@@ -198,11 +197,11 @@ figcaption {
     text-decoration: underline;
 }
 
-nav>a:hover {
+nav > a:hover {
     color: cyan;
 }
 
-nav>a {
+nav > a {
     transition: color .5s;
 }
 
@@ -223,7 +222,7 @@ nav>a {
     transform: scale(1.2, 1.2);
 }
 
-article+img {
+article + img {
     position: fixed;
     top: 0;
     left: -100vw;
@@ -252,7 +251,7 @@ article+img {
     }
 }
 
-article:target+img {
+article:target + img {
     animation-name: animate-img;
     animation-duration: 1.5s;
 }
@@ -261,7 +260,7 @@ article:target {
     left: 0;
 }
 
-article:target~#home {
+article:target ~ #home {
     left: -100vw;
 }
 
@@ -281,7 +280,7 @@ article:target~#home {
     animation-play-state: paused;
 }
 
-.cube>img {
+.cube > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -353,6 +352,6 @@ article:target~#home {
     }
 }
 
-#mobile-nav, mobile-trigger, #bonus, .bonus-image{
+#mobile-nav, mobile-trigger, #bonus, .bonus-img{
     display:none;
 }
