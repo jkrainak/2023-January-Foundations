@@ -8,11 +8,20 @@
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/standard.css" />
+    <link
+      rel="stylesheet"
+      href="css/mobile.css"
+      media="screen and (orientation: portrait)"
+    />
   </head>
 
   <body>
-    <nav>
+    <a id="mobile-nav" href="#nav">
+      <img id="menu" src="./images/menu.png" />
+    </a>
+    <nav id="nav">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
@@ -47,10 +56,10 @@
       <div class="photobox">
         <div class="stage">
           <figure class="cube">
-            <img class="front" src="images/kevin.jpg" alt="" />
-            <img class="back" src="images/cards.jpg" alt="" />
-            <img class="left" src="images/kevin-grill.jpg" alt="" />
-            <img class="right" src="images/kevin1.jpg" alt="" />
+            <img class="front" src="images/kevin.jpg" alt="">
+            <img class="back" src="images/cards.jpg" alt="">
+            <img class="left" src="images/kevin-grill.jpg" alt="">
+            <img class="right" src="images/kevin1.jpg" alt="">
           </figure>
           <figcaption>Kevin Smotherman</figcaption>
         </div>
@@ -79,6 +88,7 @@
         Facebook is a great example of a web application - the data shown varies
         by user and can change every single second.
       </p>
+      <img src="./images/kidjuice.jpg" alt="" class="bonus-img">
     </article>
     <img src="./images/www.jpg" alt="" />
     <article id="apps">
@@ -108,10 +118,11 @@
         </p>
       </div>
       <div class="sidebar">
-        <img src="images/firefly.png" alt="" />
-        <img src="images/gradebook.png" alt="" />
-        <img src="images/capture.png" alt="" />
+        <img src="images/firefly.png" alt="">
+        <img src="images/gradebook.png" alt="">
+        <img src="images/capture.png" alt="">
       </div>
+      <img src="./images/webappdev.jpg" alt="" class="bonus-img">
     </article>
     <img src="./images/apps.jpg" alt="" />
     <article id="contact">
@@ -121,24 +132,30 @@
           ><img src="images/email.png" />E-Mail</a
         >
         <a href="tel:402.718.5784"
-          ><img src="images/phone-call-1.png" />(402)718-5784</a
-        >
-        <a href="https://fb.me/TwinFeats"
-          ><img src="images/facebook.png" />Facebook</a
-        >
-        <a href="https://twitter.com/TwinFeats"
-          ><img src="images/twitter.png" />Twitter</a
-        >
+          ><img src="images/phone-call-1.png" />(402)718-5784</a>
+        <a href="https://fb.me/TwinFeats">
+          <img src="images/facebook.png" />Facebook</a>
+        <a href="https://twitter.com/TwinFeats">
+          <img src="images/twitter.png" />Twitter</a>
       </div>
     </article>
     <img src="./images/contactbg.jpg" alt="" />
     <article id="home">
-      <div class="title">Twin Feats</div>
-      <div>
-        <img class="logo" src="images/logo.png" alt="logo" />
+      <div class="vertical-container">
+        <div class="title">Twin Feats</div>
+        <div>
+          <img class="logo" src="images/logo.png" alt="logo" />
+        </div>
+        <div class="title">Software</div>
+        <p class="tagline">Free software for a free world</p>
+        <div id="bonus">
+          <p>
+            TwinFeats Software is twin Brothers Kent &amp; Keith Smotherman.
+          </p>
+          <p>&copy; 2019 TwinFeats Software, all rights reserved.</p>
+          <p>402.555.5555</p>
+        </div>
       </div>
-      <div class="title">Software</div>
-      <p class="tagline">Free software for a free world</p>
     </article>
   </body>
 </html>

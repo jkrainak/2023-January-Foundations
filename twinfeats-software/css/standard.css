@@ -266,7 +266,7 @@ article:target~#home {
 }
 
 .stage {
-    perspective: 1600px;
+    /* perspective: 1600px; */
     perspective-origin: 50% 0;
     width: 22ch;
     margin-right: 1.5em;
@@ -351,4 +351,8 @@ article:target~#home {
     100% {
         transform: rotatey(360deg);
     }
+}
+
+#mobile-nav, mobile-trigger, #bonus, .bonus-image{
+    display:none;
 }

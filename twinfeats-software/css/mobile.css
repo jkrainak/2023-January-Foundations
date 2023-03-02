@@ -1,0 +1,125 @@
+html {
+    font-size: xx-large;
+}
+
+#mobile-nav {
+    display: block;
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    height: 5vh;
+    width: 5vh;
+    z-index: 10;
+    padding: 0;
+}
+
+#mobile-nav>img {
+    width: 100%;
+}
+
+#nav:target {
+    width: 12ch;
+    height: 7em;
+    padding: .2em;
+}
+
+nav {
+    flex-direction: column;
+    top: calc(5vh + .5em);
+    width: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+nav>a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+nav>a:first-child {
+    padding-top: 0.5em;
+}
+
+nav>a:last-child {
+    padding-bottom: 0.5em;
+}
+
+.logo {
+    width: 40vw;
+    height: auto;
+}
+
+article {
+    padding-left: 5vw;
+    padding-right: 5vw;
+font-size:1.2rem;
+
+}
+
+.vertical-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tagline {
+    white-space: nowrap;
+}
+
+#bonus {
+    display: block;
+    margin-top: 3em;
+}
+
+.bonus-img {
+    margin-top: 5vh;
+    display: block;
+    width: 100%;
+}
+
+#apps>.sidebar {
+    display: none;
+}
+
+.stage .cube {
+    width: 40vw;
+    height: 40vw;
+}
+
+.photobox img {
+    height: 40vw;
+}
+
+.stage .front {
+    transform: translateZ(20vw);
+}
+
+.stage .back {
+    transform: rotatey(100deg) translatez(20vw);
+
+}
+
+.stage .top {
+    transform: rotatex(90deg) translatez(20vw)
+}
+
+.stage .bottom {
+    transform: rotatex(-90deg) translatez(20vw);
+}
+
+.stage .left {
+    transform: rotatey(-90deg) translatez(20vw);
+}
+
+.stage .right {
+    transform: rotatey(90deg) translatez(20vw);
+}
+
+figcaption {
+    font-size:1rem;
+}
+
+.photobox {
+    flex-direction: column;
+}
