@@ -153,38 +153,3 @@ header > .content {
     transform: translateY(-50%);
 }
 
-
-
-/* not sure if we are supposed to do the following */
-
-#apps > .left {
-    grid-area: left;
-}
-
-#apps > .right {
-    grid-area: right;
-}
-
-#apps > div:nth-of-type(1) {
-    grid-area: left;
-    padding-right: 1.5em;
-    text-align: right;
-}
-
-#apps > div:nth-of-type(2) {
-    grid-area: right;
-    padding-left: 1.5em;
-    text-align: left;
-}
-
-
-
-#apps p {
-    text-align: center;
-}
-
-#apps {
-    display: grid;
-    grid-template-areas:
-        "left right";
-}
